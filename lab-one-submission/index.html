@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1 - Responsive Layout</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="fixed-width">
+            <h1>Responsive Web Design</h1>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="fixed-width">
+            <section>
+                <h2>Fluid Layout</h2>
+                <div class="flex-container">
+                    <img src="https://source.unsplash.com/random/500x400" alt="placeholder image">
+                    <div>
+                        <p>In print, publishers determine the size of what is displayed (and where) in absolute
+                            measures.
+                            When
+                            the
+                            internet arrived, this trend continued, and designers defined websites in pixel sizes.</p>
+                        <p>For responsive design, the absolute size method doesn't work because devices vary in size.
+                            Therefore,
+                            responsive design uses relative sizes.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Fluid Images</h2>
+                <div class="flex-container">
+                    <img src="https://source.unsplash.com/random/500x400" alt="placeholder image">
+                    <div>
+                        <p>When you use fluid grids to define a layout using relative values (such as percentages),
+                            nothing
+                            on a
+                            layout
+                            will
+                            have a constant size across all devices. This means that images in your layout will need to
+                            be
+                            resized
+                            for
+                            each
+                            screen real estate. That's where fluid images enter the picture! Much like water, fluid
+                            images
+                            take
+                            on
+                            the
+                            size
+                            of their container. So, you can create a single image and instruct the browser to scale the
+                            image
+                            according
+                            to
+                            the size of the container.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <h2>Media Queries</h2>
+                <div class="flex-container">
+                    <img src="https://source.unsplash.com/random/500x400" alt="placeholder image">
+                    <div>
+                        <p>Media queries are instructions to alter the site's layout based on certain conditions. For
+                            example, a
+                            two-column
+                            approach might not be practical in the screen real estate of a smartphone.</p>
+                        <p>You can use a media query to instruct the browser to rearrange the screen real estate if the
+                            screen
+                            size
+                            is
+                            smaller than a particular size. This specific size at which the layout breaks is called a
+                            “breakpoint.”
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="fixed-width">
+        <p>For Educational Purposes Only &#xa9; 2023 | Source <a
+                href="https://www.interaction-design.org/literature/article/responsive-design-let-the-device-do-the-work">Responsive
+                Web Design Best Practices</a></p>
+    </footer>
+
+</body>
+
+</html>
